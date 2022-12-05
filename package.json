@@ -1,0 +1,33 @@
+{
+  "name": "tindogs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^4.5.0",
+    "@capacitor/core": "^4.5.0",
+    "@capacitor/splash-screen": "^4.1.2",
+    "@quasar/extras": "^1.15.6",
+    "interactjs": "^1.10.17",
+    "pinia": "^2.0.26",
+    "quasar": "^2.10.2",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.2.3",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.32.12",
+    "vite": "^3.2.4"
+  }
+}
